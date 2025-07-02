@@ -1,3 +1,46 @@
 # co2-footprint-website
 Transparenz-Webseite zu CO2-Emissionen von Ländern und Unternehmen.
-git clone https://github.com/DEIN-BENUTZERNAME/co2-footprint-website.git
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO2-Footprint Transparenz-Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="bg-light shadow-sm">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    CO2-Footprint
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Über uns</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-auto">
+        <p>&copy; 2025 Non-Profit-Organisation | <a href="#" class="text-white">Impressum</a> | <a href="#" class="text-white">Datenschutz</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
